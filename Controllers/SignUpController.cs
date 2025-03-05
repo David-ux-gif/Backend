@@ -2,14 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using wandermateBackend.Data;
+using Backend.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using wandermateBackend.DTO.UserDTO;
-using wandermateBackend.Models;
-using wandermateBackend.DTO.CreateUserDto;
+using Backend.DTO.UserDTO;
+using Backend.Models;
+using Backend.DTO.CreateUserDto;
 
-namespace wandermateBackend.Controllers
+namespace Backend.Controllers
 {
 
     [Route("api/user")]

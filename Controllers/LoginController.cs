@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using wandermateBackend.Data;
-using wandermateBackend.DTO.LoginDTO;
+using Backend.Data;
+using Backend.DTO.LoginDTO;
 
-namespace wandermateBackend.Controllers
+namespace Backend.Controllers
 {
     [Route("api/login")]
     [ApiController]

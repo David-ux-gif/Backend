@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace wandermateBackend.Models
+namespace Backend.Models
 {
     [Table("Travel")]
     public class Travel

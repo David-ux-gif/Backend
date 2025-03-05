@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using wandermateBackend.Data;
-using wandermateBackend.DTO.HotelDTO;
-using wandermateBackend.Models;
+using Backend.Data;
+using Backend.DTO.HotelDTO;
+using Backend.Models;
 
-namespace wandermateBackend.Controllers
+namespace Backend.Controllers
 {
     [Route("api/hotels")]
     [ApiController]

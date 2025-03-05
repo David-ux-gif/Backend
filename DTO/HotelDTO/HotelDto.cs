@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using wandermateBackend.Models;
+using Backend.Models;
 
-namespace wandermateBackend.DTO.HotelDTO
+namespace Backend.DTO.HotelDTO
 {
     public class HotelDto
     {

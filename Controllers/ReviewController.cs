@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace wandermateBackend.Controllers
+namespace Backend.Controllers
 {
     public class ReviewController
     {

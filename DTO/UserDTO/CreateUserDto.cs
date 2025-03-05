@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace wandermateBackend.DTO.CreateUserDto
+namespace Backend.DTO.CreateUserDto
 {
     public class CreateUserDto
     {

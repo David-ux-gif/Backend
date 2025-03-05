@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using wandermateBackend.Data;
-using wandermateBackend.Models;
+using Backend.Data;
+using Backend.Models;
 
 
-namespace wandermateBackend.Controllers
+namespace Backend.Controllers
 { 
-    [Route("wandermateBackend/travel")]
+    [Route("Backend/travel")]
     [ApiController]
     public class TravelController : ControllerBase
     {

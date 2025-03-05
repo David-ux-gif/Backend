@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-namespace wandermateBackend.Models
+namespace Backend.Models
 {
     [Table("Hotel")]
     public class Hotel
@@ -33,5 +33,6 @@ namespace wandermateBackend.Models
 
         public List <Review> Reviews {get; set;} = new List <Review> ();
         
+        public List<HotelBooking> HotelBooking {get; set;} =new List<HotelBooking>();
     }
 }

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace wandermateBackend.Models
+namespace Backend.Models
 {
     [Table("User")]
     public class User
@@ -20,5 +20,6 @@ namespace wandermateBackend.Models
 
         public string Password { get; set; } = String.Empty;
         
+        public List<HotelBooking> HotelBooking {get; set;} =new List<HotelBooking>();
     }
 }

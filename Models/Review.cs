@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace wandermateBackend.Models
+namespace Backend.Models
 {
     public class Review
     {
